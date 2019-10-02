@@ -1,0 +1,31 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Pembuka tag html-->
+<html>
+<!--Pembuka tag head-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8" />
+<!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+<title>Belajar JavaScript</title>
+</head>
+<!--Isi dari website yang dibuat-->
+<body>
+<!--Header yang dibuat pada website ini yaitu Belajar Java Script--> 
+<h1>Belajar JavaScript</h1>
+<!--Setelah membuat header kemudian dilanjut dengan membuat paragraf dengan perintah pembuka tag p dan end tag /p-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p>
+<!--div merupakan generik blok konten yang dapat digunakan sebagai kontainer (penampung) untuk meng-group beberapa elemen menjadi satu-->
+<!--Pada div dibawah ini sebagai kontainer untuk menampung kalimat semangat-->
+<div id="div_semangat"></div>
+</body>
+<!--meletakkan kode JavaScript di akhir halaman-->
+<script>
+var a=document.getElementById("div_semangat");
+/*gentlementByIddigunakan untuk mengakses elemen DOM berdasarkan nilai properti id pada elemen*/
+a.innerHTML="<p>Sedang Belajar JavaScript, Semangat...!!!</p>";
+/*inner html berfungsi untuk mengubah inner html menjadi elemen html di dalamnya*/
+</script>
+</html>
+<!--Endtag html-->

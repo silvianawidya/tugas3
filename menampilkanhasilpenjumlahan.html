@@ -1,0 +1,34 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Tag pembuka html-->
+<html>
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+<title>Belajar JavaScript</title>
+<!--DI dalam script terdapat method dari object window yang ada di JAva Script-->
+ <!--Fungsi getElementById akan mencari elemen HTML yang memiliki atribut id yang diinputkan di dalam tanda kurung-->
+<script>
+window.onload = function()
+{
+var hasil;
+hasil = 1+3+5+7+9;
+document.getElementById("tempat_hasil").innerHTML=hasil;
+}
+    /*menginputkan hasil program kedalam tag ‘container’ dengan menggunakan properti innerHTML*/
+</script>
+</head>
+    <!--Body merupakan isi dari semua elemen yang ada di website--> 
+<body>
+<!--perintah h dibawah ini berfungsi untuk membuat sebuah kalimat menjadi sebuah header-->
+<h1>Belajar JavaScript</h1> 
+<!--perintah p dibawah ini berfungsi untuk membuat sebuah paragraf-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p> 
+<!--Tag div merupakan tag container untuk menampung hasil program-->
+<div id="tempat_hasil"> 
+</div> 
+</body>
+<!--End tag dari html--> 
+</html> 

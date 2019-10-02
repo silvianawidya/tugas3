@@ -1,0 +1,38 @@
+<!-- JavaScript adalah bahasa pemrograman web yang bersifat Client Side Programming Language. Perhatikan bahwa nama file dari contoh JavaScript kita berakhiran .html, karena pada dasarnya kode tersebut adalah kode HTML yang ‘disiipkan’ dengan JavaScript-->
+<!--Struktur dasar-->
+<!DOCTYPE html> 
+<!--Tag HTML merupakan tag pembuka dari keseluruhan halaman web-->
+<html> 
+    <!--Tag head berisi berbagai definisi halaman-->
+    <head> 
+        <!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+        <title>Belajar JavaScript di Jti.polije</title> 
+        <!--script type ini untuk menjelaskan bahwa kodingan dibawah ini merupakan ttype text dalam JS(Java Script) -->
+        <script type="text/javascript"> 
+        function tambah_semangat() 
+        {   
+            var a=document.getElementById("div_semangat");    
+            a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat...!!!</p>"; 
+            } 
+            /*a.inner HTML berfungsi untuk menampilkan output pada Java Script*/
+            </script>
+            </head> 
+        <!--Cara penulisan fungsi seperti diatas dikenal dengan nama function declaration atau deklarasi fungsi, dengan kata kunci function, nama fungsi, parameter fungsi, dan juga sekumpulan perintah yang ada di dalam kurung kurawal-->
+        <!-- Penulisan deklarasi fungsi seperti diatas merupakan cara penulisan fungsi yang umumnya digunakan pada bahasa pemorgraman imperiatif dan berorientasi objek-->
+ 
+            <!--Perintah body merupakan perintah untuk menunjukkan bahwa dbagian dibawah ini merupakan isi website yang telah dibuat-->
+            <body> 
+                <h1>Belajar JavaScript</h1> 
+                <p> Saya sedang belajar JavaScript di jti.polije.com </p> 
+                Klik tombol ini untuk menambahkan kalimat baru: 
+                <!--tombol button onclick dibawah ini adalah event jika sebuah element html di click-->
+                <button id="tambah" onclick="tambah_semangat()">Semangaat..!!</button> 
+
+            <!--Untuk menguji kode JavaScript yang telah dibuat, silahkan klik tombol “Semangaat..!!” beberapa kali, dan kalimat baru akan ditambahkan di akhir halaman web kita-->
+ 
+<div id="div_semangat"></div> 
+<!--div merupakan division yaitu generik blok konten yang dapat digunakan sebagai kontainer untuk meng group beberapa elemen menjadi satu-->
+<!--HTML div merupakan wadah untuk menempatkaneberapa elemen menjadi satu bagian, yang penggunaannya ditujukan untuk mempermudah aplikasi style dengan CSS dan perlakuan khusus lainnya yang kemudian dapat diberi atribut class, id, title dan lain sebagainya-->
+</body> 
+</html> 
+ 

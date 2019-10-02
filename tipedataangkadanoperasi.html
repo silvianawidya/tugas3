@@ -1,0 +1,45 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Tag pembuka html-->
+<html>
+<!--Tag pembuka head-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<!--Title berisikan judul yang dibuat dalam website-->
+<title>Belajar JavaScript</title>
+<script>
+/*membuat 3 buah variabel, yakni variabel a, b dan c, sekaligus langsung memeberikan nilai awal*/
+var a = 12;
+var b = 4;
+var c = 2;
+console.log(a); // hasil: 12
+console.log(b); // hasil: 4
+console.log(c); // hasil: 2
+var d = a + b;
+console.log(d); // hasil: 16
+var e = b * 5;
+console.log(e); // hasil: 20
+var f = a % 5;
+console.log(f); // hasil: 2
+var g = 3 + 6 * 2;
+console.log(g); // hasil: 15
+var h = c + b * a % 3;
+console.log(h); // hasil: 2
+var i = 3 * 4 / 5 * 5;
+console.log(i); // hasil: 12
+var j = (((3 * 4) / 5) * 5); /*untuk membuat prioritas suatu operasi menjadi lebih tinggi, kita bisa menambahkan tanda kurung didalam program*/
+console.log(j); // hasil: 12
+/*Perintah console.log selanjutnya akan menampilkan isi dari ketiga variabel diatas*/
+</script>
+</head>
+<!--Body menunjukkan isi dari semua elmen yang ada di halaman website-->
+<body>
+<!--Fungsi h untuk memebuat sebuah kalimat menjadi sebuah header-->
+<h1>Belajar JavaScript</h1>
+<!--Fungsi p untuk memnentukan bawha kaliat tersebut menjadi satu kesatuan dalam sebuah paragraf-->
+<p> Saya sedang belajar Tipe Data Angka JavaScript di </p>
+</body>
+<!--End tag dari html-->
+</html>

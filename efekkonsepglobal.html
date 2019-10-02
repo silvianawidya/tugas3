@@ -1,0 +1,35 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!-- HTML yang berfungsi untuk bagian kepala dalam Java script-->
+<html>
+<!--Pembuka tag html-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8" />
+<!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+<title>Belajar JavaScript</title>
+<script>
+var nilai = "global";
+function test() {
+var nilai = "lokal";
+var nilai_lokal = "jti.polije";
+tanpa_var = "no_scope"; //akan menjadi global variabel!!
+console.log(nilai); 
+}
+test(); // print: lokal
+console.log(nilai); // print: global
+console.log(tanpa_var); //print: no_scope (bisa diakses)
+console.log(nilai_lokal); //error, karena nilai_lokal adalah
+lokal=variabel;
+</script>
+</head>
+<!--Body menunjukkan bahwa dibawah ini merupakan isis dari semua elemen yang ada di html-->
+<body>
+        <!--perintah h dibawah ini berfungsi untuk membuat sebuah kalimat menjadi sebuah header-->
+        <h1>Belajar JavaScript</h1>
+        <!--perintah p dibawah ini berfungsi untuk membuat sebuah paragraf-->
+        <p> Saya sedang belajar JavaScript di jti.polije.com </p>
+        </body>
+        <!--Endtag html-->
+        </html>

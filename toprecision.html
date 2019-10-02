@@ -1,0 +1,34 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Tag pembuka html-->
+<html>
+<!--Tag pembuka head-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<!--Title berfungsi untuk memebri judul pada web yang dibuat-->
+<title>Belajar JavaScript</title>
+<script>
+/*memberikan deklarasi variabel dengan memebrikan nilai langsung*/
+a = 123.43678;
+b = a.toPrecision();
+c = a.toPrecision(1);
+/*Hasil kembalian toPrecision() bertipe String*/
+console.log(b); // hasil: 123.4367
+console.log(c); // hasil: 1e+2
+console.log(a.toPrecision(2)); // hasil: 1.2e+2
+console.log(a.toPrecision(4)); // hasil: 123.4;
+console.log(a.toPrecision(7)); // hasil: 123.4368;
+</script>
+</head>
+<!--Body berisikan isi dari semua elemen yang ada pada html yang telah dibuat-->
+<body>
+<!--Perintah h berfungsi untuk menentukan bahwa kalimat tersebut merupakan sebuah header-->
+<h1>Belajar JavaScript</h1>
+<!--Perintah p berfungsi untuk menentukan bahwa kalimat tersebut merupakan sebuah paragraf-->
+<p> Saya sedang belajar method toPrecision</p>
+</div>
+</body>
+<!--End tag dari html-->
+</html>

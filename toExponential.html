@@ -1,0 +1,37 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Tag pembuka html-->
+<html>
+<!--Tag pembuka head-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<!--tittle berfungsi untuk memberi subah judul di dalam halaman website-->
+<title>Belajar JavaScript</title>
+<script>
+/*mendeklarasikan variabel dengan memebrikan nilai langsung*/
+/*Tipe data kembalian method Number.toExponential() bertipe String*/
+a = 5000.123456789;
+b = a.toExponential();
+c = a.toExponential(1);
+console.log(b); // hasil:
+5.000123456789e+3
+console.log(c); // hasil: 5.0e+3
+console.log(a.toExponential(5)); // hasil: 5.00012e+3
+console.log(a.toExponential(10)); // hasil:
+5.0001234568e+3
+console.log(a.toExponential(20)); // hasil:
+5.00012345678899964696e+3
+</script>
+</head>
+<!--Body berisikan isi dari semua elemen yang ada di web-->
+<body>
+<!--Peirntah h digunakan untuk membuat sebuah kalimat menajdi sebuah header-->
+<h1>Belajar JavaScript</h1>
+<!--Perintah p digunakan untuk membuat sebuah paragraf-->
+<p> Saya sedang belajar method toExponential</p>
+</div>
+</body>
+<!--Endtag html-->
+</html>

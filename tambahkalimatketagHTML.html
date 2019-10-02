@@ -1,0 +1,28 @@
+<!--Struktur dasar html-->
+<!DOCTYPE html>
+<!--Tag pembuka html-->
+<html>
+<!--Tag pembuka head-->
+<head>
+<!--Meta tag dibawah ini merupakan tag yang berdiri sendiri, atau disebut juga self-closing tag yang berisikan atribut http-equiv-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<!--Title berfungsi untuk memberi sebuah judul pada halaman atas website-->
+<title>Belajar JavaScript</title>
+<!--Pada tag inilah saya mengisi kalimat yang dibuat dengan JavaScript. Jika anda menjalankan halaman tersebut, hasil tampilan pada web browser tidak akan menampilkan kalimat yang saya buat dari JavaScript. Apa yang terjadi? Untuk melihat kenapa kalimat tersebut tidak tampil, anda bisa melihatnya dari error JavaScript. Dari tab console, anda bisa melihat 1 buah error,-->
+<script>
+//mendeklarasikans sebuah variable 
+var a=document.getElementById("div_semangat"); //<!--Fungsi getElementById akan mencari elemen HTML yang memiliki atribut id yang diinputkan di dalam tanda kurung-->
+a.innerHTML="<p>Sedang Belajar JavaScript Semangat...!!!</p>"; //Fungsi alert() untuk menampilkan sebuah pesan peringatan atau informasi
+</script>
+</head>
+<!--Tag body berisikan semua elemen yang ada dalam website-->
+<body>
+<!--Tag h berfugsi untuk menjadikan sebuah kalimat menajdi sebuah header-->
+<h1>Belajar JavaScript</h1>
+<!--Tag p berfungsi untuk membuat sebuah paragar-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p>
+<div id="div_semangat"></div>
+</body>
+<!--Endtag html-->
+</html>
